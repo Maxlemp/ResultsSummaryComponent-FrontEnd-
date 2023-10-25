@@ -1,0 +1,247 @@
+@font-face {
+  font-family: HankenGrotsek;
+  src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+* {
+  font-family: HankenGrotsek;
+}
+body {
+  background-color: hsl(221, 100%, 96%);
+}
+body p {
+  font-size: 18px;
+}
+.attribution {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 900px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 0px 5px;
+  -webkit-box-shadow: 0px 0px 73px 5px rgba(200, 199, 255, 0.67);
+  -moz-box-shadow: 0px 0px 73px 5px rgba(200, 199, 255, 0.67);
+}
+/* -----------------Result----------------- */
+.result {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(
+    0deg,
+    hsl(234, 85%, 45%),
+    hsl(234, 85%, 58%)
+  );
+  border-radius: 30px;
+  max-width: 300px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.result h1 {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-weight: 500;
+}
+.circle {
+  background-image: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+}
+.circle-content {
+  font-size: 60px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -3%;
+  left: 0%;
+}
+.circle-content2 {
+  font-size: 18px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+.great {
+  font-size: 30px;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%);
+}
+.result p {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+/* -----------------Summary----------------- */
+.summary {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  padding: 40px;
+}
+.summary h1 {
+  color: hsl(224, 30%, 27%);
+  position: relative;
+  top: -5%;
+}
+
+.btn {
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 40px;
+  height: 50px;
+  width: 300px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn:focus {
+  background-image: linear-gradient(
+    0deg,
+    hsl(234, 85%, 45%),
+    hsl(234, 85%, 58%)
+  );
+}
+/* -----------------Reaction----------------- */
+.reaction {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsla(0, 100%, 67%, 0.1);
+  border-radius: 7px;
+  height: 50px;
+  width: 300px;
+  font-weight: 700;
+}
+.text-img {
+  display: flex;
+  position: relative;
+  left: -7%;
+}
+#reaction1 {
+  color: hsl(0, 100%, 67%);
+  position: relative;
+  left: 10%;
+}
+#reaction2 {
+  color: hsl(224, 30%, 27%);
+  position: relative;
+  right: -5%;
+}
+#reaction2 span {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+/* -----------------Memory----------------- */
+.memory {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsla(39, 100%, 56%, 0.1);
+  border-radius: 7px;
+  height: 50px;
+  width: 300px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+#memory1 {
+  color: hsl(39, 100%, 56%);
+  position: relative;
+  left: 10%;
+}
+#memory2 {
+  color: hsl(224, 30%, 27%);
+  position: relative;
+  right: -5%;
+}
+#memory2 span {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+/* -----------------Verbal----------------- */
+.verbal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsla(166, 100%, 37%, 0.1);
+  border-radius: 7px;
+  height: 50px;
+  width: 300px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+#verbal1 {
+  color: hsl(166, 100%, 37%);
+  position: relative;
+  left: 10%;
+}
+#verbal2 {
+  color: hsl(224, 30%, 27%);
+  position: relative;
+  right: -5%;
+}
+#verbal2 span {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+/* -----------------Visual----------------- */
+.visual {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsla(234, 85%, 45%, 0.1);
+  border-radius: 7px;
+  height: 50px;
+  width: 300px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+#visual1 {
+  color: hsl(234, 85%, 45%);
+  position: relative;
+  left: 10%;
+}
+#visual2 {
+  color: hsl(224, 30%, 27%);
+  position: relative;
+  right: -5%;
+}
+#visual2 span {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+/* -----------------Media Querries----------------- */
+@media only screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+  .circle {
+    width: 200px;
+    height: 200;
+  }
+  .result {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
